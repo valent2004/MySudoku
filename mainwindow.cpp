@@ -11,13 +11,14 @@ MainWindow::MainWindow(QWidget *parent)
     this->setWindowTitle("MySudoku");
 }
 
+
 MainWindow::~MainWindow()
 {
     delete ui;
 }
 
 
-void MainWindow::on_pushButton_clicked()
+void MainWindow::on_CreateSudokuPB_clicked()
 {
     CreateSudokuDialog sudoku;
     sudoku.setModal(true);
@@ -25,10 +26,9 @@ void MainWindow::on_pushButton_clicked()
 }
 
 
-void MainWindow::on_pushButton_2_clicked()
+void MainWindow::on_LoadSudokuPB_clicked()
 {
     DataSudoku data;
     data.setModal(true);
     data.exec();
 }
-

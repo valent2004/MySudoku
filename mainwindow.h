@@ -16,8 +16,8 @@ public:
     ~MainWindow();
 
 private slots:
-    void on_pushButton_clicked();
-    void on_pushButton_2_clicked();
+    void on_CreateSudokuPB_clicked();
+    void on_LoadSudokuPB_clicked();
 
 private:
     Ui::MainWindow *ui;

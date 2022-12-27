@@ -46,7 +46,7 @@
      <set>Qt::AlignCenter</set>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton">
+   <widget class="QPushButton" name="CreateSudokuPB">
     <property name="geometry">
      <rect>
       <x>354</x>
@@ -59,7 +59,7 @@
      <string>Create sudoku</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_2">
+   <widget class="QPushButton" name="LoadSudokuPB">
     <property name="geometry">
      <rect>
       <x>350</x>
