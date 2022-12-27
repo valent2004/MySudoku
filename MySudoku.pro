@@ -19,7 +19,8 @@ HEADERS += \
     createsudokudialog.h \
     datasudoku.h \
     mainwindow.h \
-    playsudokudialog.h
+    playsudokudialog.h \
+    sudokufield.h
 
 FORMS += \
     createsudokudialog.ui \
