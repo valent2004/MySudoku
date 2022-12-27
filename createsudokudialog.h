@@ -1,5 +1,5 @@
-#ifndef SUDOKU_H
-#define SUDOKU_H
+#ifndef CREATESUDOKUDIALOG_H
+#define CREATESUDOKUDIALOG_H
 
 #include <QDialog>
 
@@ -29,4 +29,4 @@ private:
     Ui::CreateSudokuDialog *ui;
 };
 
-#endif // SUDOKU_H
+#endif // CREATESUDOKUDIALOG_H

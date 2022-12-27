@@ -1,7 +1,7 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
 #include "createsudokudialog.h"
-#include "datasudoku.h"
+#include "loadsudokudialog.h"
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -28,7 +28,7 @@ void MainWindow::on_CreateSudokuPB_clicked()
 
 void MainWindow::on_LoadSudokuPB_clicked()
 {
-    DataSudoku data;
+    LoadSudokuDialog data;
     data.setModal(true);
     data.exec();
 }

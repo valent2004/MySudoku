@@ -3,6 +3,8 @@
 #include "createsudokudialog.h"
 #include "playsudokudialog.h"
 #include "ui_createsudokudialog.h"
+#include "sqlitedbmanager.h"
+#include "sudoku.h"
 
 CreateSudokuDialog::CreateSudokuDialog(QWidget *parent) :
     QDialog(parent),
@@ -25,8 +27,12 @@ void CreateSudokuDialog::on_savePB_clicked()
     }
     else
     {
-        QString filename = QFileDialog::getSaveFileName(this, "Save file", ui->lineEdit->text(), "Exe files (*.exe)");
-        QMessageBox::information(this,"SAVED","You save sudoku in name " + ui->lineEdit->text());
+        DBManager *dbManager = SqliteDBManager::getInstance();
+        Sudoku *newSudoku = new Sudoku(ui->lineEdit->text(), this->sudokuField);
+        if (dbManager->save(newSudoku))
+        {
+            QMessageBox::information(this,"SAVED","You save sudoku in name " + ui->lineEdit->text());
+        }
     }
 }
 

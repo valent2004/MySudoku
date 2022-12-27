@@ -10,21 +10,26 @@ CONFIG += c++11
 
 SOURCES += \
     createsudokudialog.cpp \
-    datasudoku.cpp \
+    loadsudokudialog.cpp \
     main.cpp \
     mainwindow.cpp \
-    playsudokudialog.cpp
+    playsudokudialog.cpp \
+    sqlitedbmanager.cpp \
+    sudoku.cpp
 
 HEADERS += \
     createsudokudialog.h \
-    datasudoku.h \
+    dbmanager.h \
+    loadsudokudialog.h \
     mainwindow.h \
     playsudokudialog.h \
+    sqlitedbmanager.h \
+    sudoku.h \
     sudokufield.h
 
 FORMS += \
     createsudokudialog.ui \
-    datasudoku.ui \
+    loadsudokudialog.ui \
     mainwindow.ui \
     playsudokudialog.ui
 
