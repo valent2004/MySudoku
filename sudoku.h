@@ -17,6 +17,7 @@ public:
     QString getName();
     void setSudokuField(SudokuField sudokuField);
     SudokuField getSudokuField();
+    QString getSudokuFieldAsSequence();
 };
 
 #endif // SUDOKU_H

@@ -121,7 +121,7 @@
     <string>Play</string>
    </property>
   </widget>
-  <widget class="QLineEdit" name="lineEdit_2">
+  <widget class="QLineEdit" name="lineEdit_01">
    <property name="geometry">
     <rect>
      <x>130</x>
@@ -145,7 +145,7 @@
     <set>Qt::AlignCenter</set>
    </property>
   </widget>
-  <widget class="QLineEdit" name="lineEdit_3">
+  <widget class="QLineEdit" name="lineEdit_02">
    <property name="geometry">
     <rect>
      <x>170</x>
@@ -169,7 +169,7 @@
     <set>Qt::AlignCenter</set>
    </property>
   </widget>
-  <widget class="QLineEdit" name="lineEdit_4">
+  <widget class="QLineEdit" name="lineEdit_03">
    <property name="geometry">
     <rect>
      <x>210</x>
@@ -193,7 +193,7 @@
     <set>Qt::AlignCenter</set>
    </property>
   </widget>
-  <widget class="QLineEdit" name="lineEdit_5">
+  <widget class="QLineEdit" name="lineEdit_04">
    <property name="geometry">
     <rect>
      <x>250</x>
@@ -217,7 +217,7 @@
     <set>Qt::AlignCenter</set>
    </property>
   </widget>
-  <widget class="QLineEdit" name="lineEdit_6">
+  <widget class="QLineEdit" name="lineEdit_08">
    <property name="geometry">
     <rect>
      <x>410</x>
@@ -241,7 +241,7 @@
     <set>Qt::AlignCenter</set>
    </property>
   </widget>
-  <widget class="QLineEdit" name="lineEdit_7">
+  <widget class="QLineEdit" name="lineEdit_05">
    <property name="geometry">
     <rect>
      <x>290</x>
@@ -265,7 +265,7 @@
     <set>Qt::AlignCenter</set>
    </property>
   </widget>
-  <widget class="QLineEdit" name="lineEdit_8">
+  <widget class="QLineEdit" name="lineEdit_07">
    <property name="geometry">
     <rect>
      <x>370</x>
@@ -289,7 +289,7 @@
     <set>Qt::AlignCenter</set>
    </property>
   </widget>
-  <widget class="QLineEdit" name="lineEdit_9">
+  <widget class="QLineEdit" name="lineEdit_06">
    <property name="geometry">
     <rect>
      <x>330</x>
@@ -313,7 +313,7 @@
     <set>Qt::AlignCenter</set>
    </property>
   </widget>
-  <widget class="QLineEdit" name="lineEdit_10">
+  <widget class="QLineEdit" name="lineEdit_09">
    <property name="geometry">
     <rect>
      <x>450</x>
@@ -337,7 +337,7 @@
     <set>Qt::AlignCenter</set>
    </property>
   </widget>
-  <widget class="QLineEdit" name="lineEdit_11">
+  <widget class="QLineEdit" name="lineEdit_18">
    <property name="geometry">
     <rect>
      <x>410</x>
@@ -361,7 +361,7 @@
     <set>Qt::AlignCenter</set>
    </property>
   </widget>
-  <widget class="QLineEdit" name="lineEdit_12">
+  <widget class="QLineEdit" name="lineEdit_15">
    <property name="geometry">
     <rect>
      <x>290</x>
@@ -385,7 +385,7 @@
     <set>Qt::AlignCenter</set>
    </property>
   </widget>
-  <widget class="QLineEdit" name="lineEdit_13">
+  <widget class="QLineEdit" name="lineEdit_16">
    <property name="geometry">
     <rect>
      <x>330</x>
@@ -433,7 +433,7 @@
     <set>Qt::AlignCenter</set>
    </property>
   </widget>
-  <widget class="QLineEdit" name="lineEdit_15">
+  <widget class="QLineEdit" name="lineEdit_11">
    <property name="geometry">
     <rect>
      <x>130</x>
@@ -457,7 +457,7 @@
     <set>Qt::AlignCenter</set>
    </property>
   </widget>
-  <widget class="QLineEdit" name="lineEdit_16">
+  <widget class="QLineEdit" name="lineEdit_19">
    <property name="geometry">
     <rect>
      <x>450</x>
@@ -505,7 +505,7 @@
     <set>Qt::AlignCenter</set>
    </property>
   </widget>
-  <widget class="QLineEdit" name="lineEdit_18">
+  <widget class="QLineEdit" name="lineEdit_13">
    <property name="geometry">
     <rect>
      <x>210</x>
@@ -529,7 +529,7 @@
     <set>Qt::AlignCenter</set>
    </property>
   </widget>
-  <widget class="QLineEdit" name="lineEdit_19">
+  <widget class="QLineEdit" name="lineEdit_12">
    <property name="geometry">
     <rect>
      <x>170</x>
@@ -649,7 +649,7 @@
     <set>Qt::AlignCenter</set>
    </property>
   </widget>
-  <widget class="QLineEdit" name="lineEdit_24">
+  <widget class="QLineEdit" name="lineEdit_211">
    <property name="geometry">
     <rect>
      <x>130</x>
@@ -721,7 +721,7 @@
     <set>Qt::AlignCenter</set>
    </property>
   </widget>
-  <widget class="QLineEdit" name="lineEdit_27">
+  <widget class="QLineEdit" name="lineEdit_24">
    <property name="geometry">
     <rect>
      <x>210</x>
@@ -745,7 +745,7 @@
     <set>Qt::AlignCenter</set>
    </property>
   </widget>
-  <widget class="QLineEdit" name="lineEdit_28">
+  <widget class="QLineEdit" name="lineEdit_221">
    <property name="geometry">
     <rect>
      <x>170</x>
@@ -2452,27 +2452,27 @@
  </widget>
  <tabstops>
   <tabstop>lineEdit</tabstop>
-  <tabstop>lineEdit_2</tabstop>
-  <tabstop>lineEdit_3</tabstop>
-  <tabstop>lineEdit_4</tabstop>
-  <tabstop>lineEdit_5</tabstop>
-  <tabstop>lineEdit_7</tabstop>
-  <tabstop>lineEdit_9</tabstop>
-  <tabstop>lineEdit_8</tabstop>
-  <tabstop>lineEdit_6</tabstop>
-  <tabstop>lineEdit_10</tabstop>
-  <tabstop>lineEdit_15</tabstop>
-  <tabstop>lineEdit_19</tabstop>
-  <tabstop>lineEdit_18</tabstop>
-  <tabstop>lineEdit_14</tabstop>
+  <tabstop>lineEdit_01</tabstop>
+  <tabstop>lineEdit_02</tabstop>
+  <tabstop>lineEdit_03</tabstop>
+  <tabstop>lineEdit_04</tabstop>
+  <tabstop>lineEdit_05</tabstop>
+  <tabstop>lineEdit_06</tabstop>
+  <tabstop>lineEdit_07</tabstop>
+  <tabstop>lineEdit_08</tabstop>
+  <tabstop>lineEdit_09</tabstop>
+  <tabstop>lineEdit_11</tabstop>
   <tabstop>lineEdit_12</tabstop>
   <tabstop>lineEdit_13</tabstop>
-  <tabstop>lineEdit_17</tabstop>
-  <tabstop>lineEdit_11</tabstop>
+  <tabstop>lineEdit_14</tabstop>
+  <tabstop>lineEdit_15</tabstop>
   <tabstop>lineEdit_16</tabstop>
+  <tabstop>lineEdit_17</tabstop>
+  <tabstop>lineEdit_18</tabstop>
+  <tabstop>lineEdit_19</tabstop>
+  <tabstop>lineEdit_211</tabstop>
+  <tabstop>lineEdit_221</tabstop>
   <tabstop>lineEdit_24</tabstop>
-  <tabstop>lineEdit_28</tabstop>
-  <tabstop>lineEdit_27</tabstop>
   <tabstop>lineEdit_23</tabstop>
   <tabstop>lineEdit_21</tabstop>
   <tabstop>lineEdit_22</tabstop>

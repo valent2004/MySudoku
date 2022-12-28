@@ -2,7 +2,6 @@
 #define PLAYSUDOKU_H
 
 #include <QDialog>
-#include "createsudokudialog.h"
 #include "sudokufield.h"
 
 namespace Ui {

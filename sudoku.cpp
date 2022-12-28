@@ -1,4 +1,5 @@
 #include "sudoku.h"
+#include <QDebug>
 
 Sudoku::Sudoku(QString name, SudokuField sudokuField, int id)
 {
@@ -35,5 +36,25 @@ void Sudoku::setSudokuField(SudokuField sudokuField)
 SudokuField Sudoku::getSudokuField()
 {
     return sudokuField;
+}
+
+QString Sudoku::getSudokuFieldAsSequence()
+{
+    QString sequence;
+    for (int j = 0; j < 9; j++)  //row index
+    {
+        for (int i = 0; i < 9; i++)
+        {
+            if (sudokuField.rows[j].at(i).isEmpty())
+            {
+                sequence.push_back('X');
+            } else
+            {
+                sequence.push_back(sudokuField.rows[j].at(i).at(0));
+            }
+        }
+    }
+    qDebug() << sequence;
+    return sequence;
 }
 

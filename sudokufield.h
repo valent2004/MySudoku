@@ -25,15 +25,7 @@ struct SudokuField {
     QVector<QString> column8;
     QVector<QString> column9;
 
-    QVector<QString> row1;
-    QVector<QString> row2;
-    QVector<QString> row3;
-    QVector<QString> row4;
-    QVector<QString> row5;
-    QVector<QString> row6;
-    QVector<QString> row7;
-    QVector<QString> row8;
-    QVector<QString> row9;
+    QVector<QString> rows[9];
 };
 
 #endif // SUDOKUFIELD_H
