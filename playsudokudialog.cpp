@@ -104,7 +104,7 @@ void PlaySudokuDialog::showInformation()
     QMessageBox::information(this,"Wrong","You can't play. I'm sorry!");
 }
 
-void PlaySudokuDialog::on_pushButton_clicked()
+void PlaySudokuDialog::clearSudokuField()
 {
     for(int i = 0; i < 9; i++)
     {
@@ -112,6 +112,11 @@ void PlaySudokuDialog::on_pushButton_clicked()
         sudokuField.columns[i].clear();
         sudokuField.rows[i].clear();
     }
+}
+
+void PlaySudokuDialog::readSudokuFromWindow()
+{
+
     sudokuField.squares[0].push_back(ui->lineEdit_01->text());
     sudokuField.squares[0].push_back(ui->lineEdit_02->text());
     sudokuField.squares[0].push_back(ui->lineEdit_03->text());
@@ -355,6 +360,10 @@ void PlaySudokuDialog::on_pushButton_clicked()
     sudokuField.rows[8].push_back(ui->lineEdit_87->text());
     sudokuField.rows[8].push_back(ui->lineEdit_88->text());
     sudokuField.rows[8].push_back(ui->lineEdit_89->text());
+}
+
+bool PlaySudokuDialog::checkSudoku()
+{
     int right = 0;
     QString this_one = "";
     QVector<QString> notSame;
@@ -548,142 +557,45 @@ void PlaySudokuDialog::on_pushButton_clicked()
                                                                                                             {
                                                                                                                 notSameRow9.clear();
                                                                                                                 massive(sudokuField.rows[8], notSameRow9, this_one, num, uR9);
-                                                                                                                QMessageBox::information(this,"Congratulations!","You win the puzzle!");
-                                                                                                            }
-                                                                                                            else
-                                                                                                            {
-                                                                                                                showInformation();
+                                                                                                                return true;
                                                                                                             }
                                                                                                         }
-                                                                                                        else
-                                                                                                        {
-                                                                                                            showInformation();
-                                                                                                        }
-                                                                                                    }
-                                                                                                    else
-                                                                                                    {
-                                                                                                        showInformation();
                                                                                                     }
                                                                                                 }
-                                                                                                else
-                                                                                                {
-                                                                                                    showInformation();
-                                                                                                }
-                                                                                            }
-                                                                                            else
-                                                                                            {
-                                                                                                showInformation();
                                                                                             }
                                                                                         }
-                                                                                        else
-                                                                                        {
-                                                                                            showInformation();
-                                                                                        }
-                                                                                    }
-                                                                                    else
-                                                                                    {
-                                                                                        showInformation();
                                                                                     }
                                                                                 }
-                                                                                else
-                                                                                {
-                                                                                    showInformation();
-                                                                                }
-                                                                            }
-                                                                            else
-                                                                            {
-                                                                                showInformation();
                                                                             }
                                                                         }
-                                                                        else
-                                                                        {
-                                                                            showInformation();
-                                                                        }
-                                                                    }
-                                                                    else
-                                                                    {
-                                                                        showInformation();
                                                                     }
                                                                 }
-                                                                else
-                                                                {
-                                                                    showInformation();
-                                                                }
-                                                            }
-                                                            else
-                                                            {
-                                                                showInformation();
                                                             }
                                                         }
-                                                        else
-                                                        {
-                                                            showInformation();
-                                                        }
-
-                                                    }
-                                                    else
-                                                    {
-                                                        showInformation();
                                                     }
                                                 }
-                                                else
-                                                {
-                                                    showInformation();
-                                                }
-                                            }
-                                            else
-                                            {
-                                                showInformation();
                                             }
                                         }
-                                        else
-                                        {
-                                            showInformation();
-                                        }
-                                    }
-                                    else
-                                    {
-                                        showInformation();
                                     }
                                 }
-                                else
-                                {
-                                    showInformation();
-                                }
-                            }
-                            else
-                            {
-                                showInformation();
                             }
                         }
-                        else
-                        {
-                            showInformation();
-                        }
-                    }
-                    else
-                    {
-                        showInformation();
                     }
                 }
-                else
-                {
-                    showInformation();
-                }
             }
-            else
-            {
-                showInformation();
-            }
-        }
-        else
-        {
-            showInformation();
         }
     }
-    else
+    this->showInformation();
+    return false;
+}
+
+void PlaySudokuDialog::on_pushButton_clicked()
+{
+    clearSudokuField();
+    readSudokuFromWindow();
+    if (this->checkSudoku())
     {
-        showInformation();
+        QMessageBox::information(this,"Congratulations!","You win the puzzle!");
     }
 }
 

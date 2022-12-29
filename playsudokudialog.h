@@ -27,6 +27,9 @@ private slots:
 private:
     Ui::PlaySudokuDialog *ui;
     void showInformation();
+    void readSudokuFromWindow();
+    void clearSudokuField();
+    void checkSudoku();
 };
 
 #endif // PLAYSUDOKU_H

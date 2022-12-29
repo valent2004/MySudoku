@@ -816,7 +816,7 @@
      <x>160</x>
      <y>250</y>
      <width>121</width>
-     <height>20</height>
+     <height>21</height>
     </rect>
    </property>
    <property name="frameShadow">
@@ -2386,6 +2386,114 @@
     <set>Qt::AlignCenter</set>
    </property>
   </widget>
+  <zorder>tableView</zorder>
+  <zorder>pushButton</zorder>
+  <zorder>label</zorder>
+  <zorder>lineEdit_61</zorder>
+  <zorder>lineEdit_78</zorder>
+  <zorder>lineEdit_44</zorder>
+  <zorder>lineEdit_79</zorder>
+  <zorder>lineEdit_75</zorder>
+  <zorder>lineEdit_76</zorder>
+  <zorder>lineEdit_03</zorder>
+  <zorder>lineEdit_11</zorder>
+  <zorder>lineEdit_32</zorder>
+  <zorder>lineEdit_69</zorder>
+  <zorder>lineEdit_62</zorder>
+  <zorder>lineEdit_67</zorder>
+  <zorder>lineEdit_86</zorder>
+  <zorder>lineEdit_07</zorder>
+  <zorder>lineEdit_31</zorder>
+  <zorder>lineEdit_06</zorder>
+  <zorder>lineEdit_41</zorder>
+  <zorder>lineEdit_65</zorder>
+  <zorder>lineEdit_35</zorder>
+  <zorder>lineEdit_05</zorder>
+  <zorder>lineEdit_24</zorder>
+  <zorder>lineEdit_83</zorder>
+  <zorder>lineEdit_19</zorder>
+  <zorder>lineEdit_01</zorder>
+  <zorder>lineEdit_72</zorder>
+  <zorder>lineEdit_02</zorder>
+  <zorder>lineEdit_23</zorder>
+  <zorder>lineEdit_25</zorder>
+  <zorder>lineEdit_17</zorder>
+  <zorder>lineEdit_43</zorder>
+  <zorder>lineEdit_77</zorder>
+  <zorder>lineEdit_28</zorder>
+  <zorder>lineEdit_81</zorder>
+  <zorder>lineEdit_46</zorder>
+  <zorder>lineEdit_88</zorder>
+  <zorder>lineEdit_12</zorder>
+  <zorder>lineEdit_26</zorder>
+  <zorder>lineEdit_49</zorder>
+  <zorder>lineEdit_64</zorder>
+  <zorder>lineEdit_68</zorder>
+  <zorder>lineEdit_89</zorder>
+  <zorder>lineEdit_18</zorder>
+  <zorder>lineEdit_48</zorder>
+  <zorder>lineEdit_47</zorder>
+  <zorder>lineEdit_33</zorder>
+  <zorder>lineEdit_84</zorder>
+  <zorder>lineEdit_22</zorder>
+  <zorder>lineEdit_71</zorder>
+  <zorder>lineEdit_85</zorder>
+  <zorder>lineEdit_15</zorder>
+  <zorder>lineEdit_08</zorder>
+  <zorder>lineEdit_09</zorder>
+  <zorder>lineEdit_42</zorder>
+  <zorder>lineEdit_66</zorder>
+  <zorder>lineEdit_63</zorder>
+  <zorder>lineEdit_38</zorder>
+  <zorder>lineEdit_34</zorder>
+  <zorder>lineEdit_45</zorder>
+  <zorder>lineEdit_39</zorder>
+  <zorder>lineEdit_36</zorder>
+  <zorder>lineEdit_82</zorder>
+  <zorder>lineEdit_27</zorder>
+  <zorder>lineEdit_74</zorder>
+  <zorder>lineEdit_21</zorder>
+  <zorder>lineEdit_37</zorder>
+  <zorder>lineEdit_87</zorder>
+  <zorder>lineEdit_16</zorder>
+  <zorder>lineEdit_04</zorder>
+  <zorder>lineEdit_29</zorder>
+  <zorder>lineEdit_14</zorder>
+  <zorder>lineEdit_13</zorder>
+  <zorder>lineEdit_73</zorder>
+  <zorder>lineEdit_52</zorder>
+  <zorder>lineEdit_55</zorder>
+  <zorder>lineEdit_59</zorder>
+  <zorder>lineEdit_54</zorder>
+  <zorder>lineEdit_51</zorder>
+  <zorder>lineEdit_53</zorder>
+  <zorder>lineEdit_57</zorder>
+  <zorder>lineEdit_56</zorder>
+  <zorder>lineEdit_58</zorder>
+  <zorder>line</zorder>
+  <zorder>line_13</zorder>
+  <zorder>line_9</zorder>
+  <zorder>line_24</zorder>
+  <zorder>line_20</zorder>
+  <zorder>line_16</zorder>
+  <zorder>line_11</zorder>
+  <zorder>line_5</zorder>
+  <zorder>line_23</zorder>
+  <zorder>line_19</zorder>
+  <zorder>line_7</zorder>
+  <zorder>line_22</zorder>
+  <zorder>line_21</zorder>
+  <zorder>line_6</zorder>
+  <zorder>line_18</zorder>
+  <zorder>line_10</zorder>
+  <zorder>line_12</zorder>
+  <zorder>line_2</zorder>
+  <zorder>line_15</zorder>
+  <zorder>line_14</zorder>
+  <zorder>line_3</zorder>
+  <zorder>line_8</zorder>
+  <zorder>line_17</zorder>
+  <zorder>line_4</zorder>
  </widget>
  <tabstops>
   <tabstop>pushButton</tabstop>
