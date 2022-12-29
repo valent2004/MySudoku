@@ -8,7 +8,7 @@
 
 /* Директиви імен таблиці, полів таблиці і бази даних */
 #define DATABASE_HOSTNAME   "Localhost"
-#define DATABASE_NAME       "DataBase.db"
+#define DATABASE_NAME       "DataBase3.db"
 
 // Клас, який реалізує логіку абстрактного класу DBManager для роботи із БД SQLite
 class SqliteDBManager : public DBManager {

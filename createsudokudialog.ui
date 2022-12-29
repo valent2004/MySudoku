@@ -553,106 +553,10 @@
     <set>Qt::AlignCenter</set>
    </property>
   </widget>
-  <widget class="QLineEdit" name="lineEdit_20">
+  <widget class="QLineEdit" name="lineEdit_28">
    <property name="geometry">
     <rect>
      <x>410</x>
-     <y>270</y>
-     <width>41</width>
-     <height>41</height>
-    </rect>
-   </property>
-   <property name="font">
-    <font>
-     <pointsize>15</pointsize>
-    </font>
-   </property>
-   <property name="text">
-    <string/>
-   </property>
-   <property name="maxLength">
-    <number>1</number>
-   </property>
-   <property name="alignment">
-    <set>Qt::AlignCenter</set>
-   </property>
-  </widget>
-  <widget class="QLineEdit" name="lineEdit_21">
-   <property name="geometry">
-    <rect>
-     <x>290</x>
-     <y>270</y>
-     <width>41</width>
-     <height>41</height>
-    </rect>
-   </property>
-   <property name="font">
-    <font>
-     <pointsize>15</pointsize>
-    </font>
-   </property>
-   <property name="text">
-    <string/>
-   </property>
-   <property name="maxLength">
-    <number>1</number>
-   </property>
-   <property name="alignment">
-    <set>Qt::AlignCenter</set>
-   </property>
-  </widget>
-  <widget class="QLineEdit" name="lineEdit_22">
-   <property name="geometry">
-    <rect>
-     <x>330</x>
-     <y>270</y>
-     <width>41</width>
-     <height>41</height>
-    </rect>
-   </property>
-   <property name="font">
-    <font>
-     <pointsize>15</pointsize>
-    </font>
-   </property>
-   <property name="text">
-    <string/>
-   </property>
-   <property name="maxLength">
-    <number>1</number>
-   </property>
-   <property name="alignment">
-    <set>Qt::AlignCenter</set>
-   </property>
-  </widget>
-  <widget class="QLineEdit" name="lineEdit_23">
-   <property name="geometry">
-    <rect>
-     <x>250</x>
-     <y>270</y>
-     <width>41</width>
-     <height>41</height>
-    </rect>
-   </property>
-   <property name="font">
-    <font>
-     <pointsize>15</pointsize>
-    </font>
-   </property>
-   <property name="text">
-    <string/>
-   </property>
-   <property name="maxLength">
-    <number>1</number>
-   </property>
-   <property name="alignment">
-    <set>Qt::AlignCenter</set>
-   </property>
-  </widget>
-  <widget class="QLineEdit" name="lineEdit_211">
-   <property name="geometry">
-    <rect>
-     <x>130</x>
      <y>270</y>
      <width>41</width>
      <height>41</height>
@@ -676,7 +580,7 @@
   <widget class="QLineEdit" name="lineEdit_25">
    <property name="geometry">
     <rect>
-     <x>450</x>
+     <x>290</x>
      <y>270</y>
      <width>41</width>
      <height>41</height>
@@ -700,7 +604,7 @@
   <widget class="QLineEdit" name="lineEdit_26">
    <property name="geometry">
     <rect>
-     <x>370</x>
+     <x>330</x>
      <y>270</y>
      <width>41</width>
      <height>41</height>
@@ -724,7 +628,7 @@
   <widget class="QLineEdit" name="lineEdit_24">
    <property name="geometry">
     <rect>
-     <x>210</x>
+     <x>250</x>
      <y>270</y>
      <width>41</width>
      <height>41</height>
@@ -745,10 +649,10 @@
     <set>Qt::AlignCenter</set>
    </property>
   </widget>
-  <widget class="QLineEdit" name="lineEdit_221">
+  <widget class="QLineEdit" name="lineEdit_21">
    <property name="geometry">
     <rect>
-     <x>170</x>
+     <x>130</x>
      <y>270</y>
      <width>41</width>
      <height>41</height>
@@ -772,128 +676,8 @@
   <widget class="QLineEdit" name="lineEdit_29">
    <property name="geometry">
     <rect>
-     <x>410</x>
-     <y>310</y>
-     <width>41</width>
-     <height>41</height>
-    </rect>
-   </property>
-   <property name="font">
-    <font>
-     <pointsize>15</pointsize>
-    </font>
-   </property>
-   <property name="text">
-    <string/>
-   </property>
-   <property name="maxLength">
-    <number>1</number>
-   </property>
-   <property name="alignment">
-    <set>Qt::AlignCenter</set>
-   </property>
-  </widget>
-  <widget class="QLineEdit" name="lineEdit_30">
-   <property name="geometry">
-    <rect>
-     <x>290</x>
-     <y>310</y>
-     <width>41</width>
-     <height>41</height>
-    </rect>
-   </property>
-   <property name="font">
-    <font>
-     <pointsize>15</pointsize>
-    </font>
-   </property>
-   <property name="text">
-    <string/>
-   </property>
-   <property name="maxLength">
-    <number>1</number>
-   </property>
-   <property name="alignment">
-    <set>Qt::AlignCenter</set>
-   </property>
-  </widget>
-  <widget class="QLineEdit" name="lineEdit_31">
-   <property name="geometry">
-    <rect>
-     <x>330</x>
-     <y>310</y>
-     <width>41</width>
-     <height>41</height>
-    </rect>
-   </property>
-   <property name="font">
-    <font>
-     <pointsize>15</pointsize>
-    </font>
-   </property>
-   <property name="text">
-    <string/>
-   </property>
-   <property name="maxLength">
-    <number>1</number>
-   </property>
-   <property name="alignment">
-    <set>Qt::AlignCenter</set>
-   </property>
-  </widget>
-  <widget class="QLineEdit" name="lineEdit_32">
-   <property name="geometry">
-    <rect>
-     <x>250</x>
-     <y>310</y>
-     <width>41</width>
-     <height>41</height>
-    </rect>
-   </property>
-   <property name="font">
-    <font>
-     <pointsize>15</pointsize>
-    </font>
-   </property>
-   <property name="text">
-    <string/>
-   </property>
-   <property name="maxLength">
-    <number>1</number>
-   </property>
-   <property name="alignment">
-    <set>Qt::AlignCenter</set>
-   </property>
-  </widget>
-  <widget class="QLineEdit" name="lineEdit_33">
-   <property name="geometry">
-    <rect>
-     <x>130</x>
-     <y>310</y>
-     <width>41</width>
-     <height>41</height>
-    </rect>
-   </property>
-   <property name="font">
-    <font>
-     <pointsize>15</pointsize>
-    </font>
-   </property>
-   <property name="text">
-    <string/>
-   </property>
-   <property name="maxLength">
-    <number>1</number>
-   </property>
-   <property name="alignment">
-    <set>Qt::AlignCenter</set>
-   </property>
-  </widget>
-  <widget class="QLineEdit" name="lineEdit_34">
-   <property name="geometry">
-    <rect>
      <x>450</x>
-     <y>310</y>
+     <y>270</y>
      <width>41</width>
      <height>41</height>
     </rect>
@@ -913,11 +697,11 @@
     <set>Qt::AlignCenter</set>
    </property>
   </widget>
-  <widget class="QLineEdit" name="lineEdit_35">
+  <widget class="QLineEdit" name="lineEdit_27">
    <property name="geometry">
     <rect>
      <x>370</x>
-     <y>310</y>
+     <y>270</y>
      <width>41</width>
      <height>41</height>
     </rect>
@@ -937,11 +721,11 @@
     <set>Qt::AlignCenter</set>
    </property>
   </widget>
-  <widget class="QLineEdit" name="lineEdit_36">
+  <widget class="QLineEdit" name="lineEdit_23">
    <property name="geometry">
     <rect>
      <x>210</x>
-     <y>310</y>
+     <y>270</y>
      <width>41</width>
      <height>41</height>
     </rect>
@@ -961,11 +745,11 @@
     <set>Qt::AlignCenter</set>
    </property>
   </widget>
-  <widget class="QLineEdit" name="lineEdit_37">
+  <widget class="QLineEdit" name="lineEdit_22">
    <property name="geometry">
     <rect>
      <x>170</x>
-     <y>310</y>
+     <y>270</y>
      <width>41</width>
      <height>41</height>
     </rect>
@@ -989,7 +773,103 @@
    <property name="geometry">
     <rect>
      <x>410</x>
-     <y>350</y>
+     <y>310</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>15</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="maxLength">
+    <number>1</number>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_35">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>310</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>15</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="maxLength">
+    <number>1</number>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_36">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>310</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>15</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="maxLength">
+    <number>1</number>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_34">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>310</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>15</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="maxLength">
+    <number>1</number>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_31">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>310</y>
      <width>41</width>
      <height>41</height>
     </rect>
@@ -1012,104 +892,8 @@
   <widget class="QLineEdit" name="lineEdit_39">
    <property name="geometry">
     <rect>
-     <x>290</x>
-     <y>350</y>
-     <width>41</width>
-     <height>41</height>
-    </rect>
-   </property>
-   <property name="font">
-    <font>
-     <pointsize>15</pointsize>
-    </font>
-   </property>
-   <property name="text">
-    <string/>
-   </property>
-   <property name="maxLength">
-    <number>1</number>
-   </property>
-   <property name="alignment">
-    <set>Qt::AlignCenter</set>
-   </property>
-  </widget>
-  <widget class="QLineEdit" name="lineEdit_40">
-   <property name="geometry">
-    <rect>
-     <x>330</x>
-     <y>350</y>
-     <width>41</width>
-     <height>41</height>
-    </rect>
-   </property>
-   <property name="font">
-    <font>
-     <pointsize>15</pointsize>
-    </font>
-   </property>
-   <property name="text">
-    <string/>
-   </property>
-   <property name="maxLength">
-    <number>1</number>
-   </property>
-   <property name="alignment">
-    <set>Qt::AlignCenter</set>
-   </property>
-  </widget>
-  <widget class="QLineEdit" name="lineEdit_41">
-   <property name="geometry">
-    <rect>
-     <x>250</x>
-     <y>350</y>
-     <width>41</width>
-     <height>41</height>
-    </rect>
-   </property>
-   <property name="font">
-    <font>
-     <pointsize>15</pointsize>
-    </font>
-   </property>
-   <property name="text">
-    <string/>
-   </property>
-   <property name="maxLength">
-    <number>1</number>
-   </property>
-   <property name="alignment">
-    <set>Qt::AlignCenter</set>
-   </property>
-  </widget>
-  <widget class="QLineEdit" name="lineEdit_42">
-   <property name="geometry">
-    <rect>
-     <x>130</x>
-     <y>350</y>
-     <width>41</width>
-     <height>41</height>
-    </rect>
-   </property>
-   <property name="font">
-    <font>
-     <pointsize>15</pointsize>
-    </font>
-   </property>
-   <property name="text">
-    <string/>
-   </property>
-   <property name="maxLength">
-    <number>1</number>
-   </property>
-   <property name="alignment">
-    <set>Qt::AlignCenter</set>
-   </property>
-  </widget>
-  <widget class="QLineEdit" name="lineEdit_43">
-   <property name="geometry">
-    <rect>
      <x>450</x>
-     <y>350</y>
+     <y>310</y>
      <width>41</width>
      <height>41</height>
     </rect>
@@ -1129,10 +913,82 @@
     <set>Qt::AlignCenter</set>
    </property>
   </widget>
-  <widget class="QLineEdit" name="lineEdit_44">
+  <widget class="QLineEdit" name="lineEdit_37">
    <property name="geometry">
     <rect>
      <x>370</x>
+     <y>310</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>15</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="maxLength">
+    <number>1</number>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_33">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>310</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>15</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="maxLength">
+    <number>1</number>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_32">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>310</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>15</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="maxLength">
+    <number>1</number>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_48">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
      <y>350</y>
      <width>41</width>
      <height>41</height>
@@ -1156,7 +1012,7 @@
   <widget class="QLineEdit" name="lineEdit_45">
    <property name="geometry">
     <rect>
-     <x>210</x>
+     <x>290</x>
      <y>350</y>
      <width>41</width>
      <height>41</height>
@@ -1180,7 +1036,79 @@
   <widget class="QLineEdit" name="lineEdit_46">
    <property name="geometry">
     <rect>
-     <x>170</x>
+     <x>330</x>
+     <y>350</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>15</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="maxLength">
+    <number>1</number>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_44">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>350</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>15</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="maxLength">
+    <number>1</number>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_41">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>350</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>15</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="maxLength">
+    <number>1</number>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_49">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
      <y>350</y>
      <width>41</width>
      <height>41</height>
@@ -1204,6 +1132,78 @@
   <widget class="QLineEdit" name="lineEdit_47">
    <property name="geometry">
     <rect>
+     <x>370</x>
+     <y>350</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>15</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="maxLength">
+    <number>1</number>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_43">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>350</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>15</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="maxLength">
+    <number>1</number>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_42">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>350</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>15</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="maxLength">
+    <number>1</number>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_58">
+   <property name="geometry">
+    <rect>
      <x>410</x>
      <y>390</y>
      <width>41</width>
@@ -1225,7 +1225,7 @@
     <set>Qt::AlignCenter</set>
    </property>
   </widget>
-  <widget class="QLineEdit" name="lineEdit_48">
+  <widget class="QLineEdit" name="lineEdit_55">
    <property name="geometry">
     <rect>
      <x>290</x>
@@ -1249,7 +1249,7 @@
     <set>Qt::AlignCenter</set>
    </property>
   </widget>
-  <widget class="QLineEdit" name="lineEdit_49">
+  <widget class="QLineEdit" name="lineEdit_56">
    <property name="geometry">
     <rect>
      <x>330</x>
@@ -1273,7 +1273,7 @@
     <set>Qt::AlignCenter</set>
    </property>
   </widget>
-  <widget class="QLineEdit" name="lineEdit_50">
+  <widget class="QLineEdit" name="lineEdit_54">
    <property name="geometry">
     <rect>
      <x>250</x>
@@ -1321,7 +1321,7 @@
     <set>Qt::AlignCenter</set>
    </property>
   </widget>
-  <widget class="QLineEdit" name="lineEdit_52">
+  <widget class="QLineEdit" name="lineEdit_59">
    <property name="geometry">
     <rect>
      <x>450</x>
@@ -1345,7 +1345,7 @@
     <set>Qt::AlignCenter</set>
    </property>
   </widget>
-  <widget class="QLineEdit" name="lineEdit_53">
+  <widget class="QLineEdit" name="lineEdit_57">
    <property name="geometry">
     <rect>
      <x>370</x>
@@ -1369,7 +1369,7 @@
     <set>Qt::AlignCenter</set>
    </property>
   </widget>
-  <widget class="QLineEdit" name="lineEdit_54">
+  <widget class="QLineEdit" name="lineEdit_53">
    <property name="geometry">
     <rect>
      <x>210</x>
@@ -1393,7 +1393,7 @@
     <set>Qt::AlignCenter</set>
    </property>
   </widget>
-  <widget class="QLineEdit" name="lineEdit_55">
+  <widget class="QLineEdit" name="lineEdit_52">
    <property name="geometry">
     <rect>
      <x>170</x>
@@ -1417,7 +1417,7 @@
     <set>Qt::AlignCenter</set>
    </property>
   </widget>
-  <widget class="QLineEdit" name="lineEdit_56">
+  <widget class="QLineEdit" name="lineEdit_68">
    <property name="geometry">
     <rect>
      <x>410</x>
@@ -1441,7 +1441,7 @@
     <set>Qt::AlignCenter</set>
    </property>
   </widget>
-  <widget class="QLineEdit" name="lineEdit_57">
+  <widget class="QLineEdit" name="lineEdit_65">
    <property name="geometry">
     <rect>
      <x>290</x>
@@ -1465,7 +1465,7 @@
     <set>Qt::AlignCenter</set>
    </property>
   </widget>
-  <widget class="QLineEdit" name="lineEdit_58">
+  <widget class="QLineEdit" name="lineEdit_66">
    <property name="geometry">
     <rect>
      <x>330</x>
@@ -1489,7 +1489,7 @@
     <set>Qt::AlignCenter</set>
    </property>
   </widget>
-  <widget class="QLineEdit" name="lineEdit_59">
+  <widget class="QLineEdit" name="lineEdit_64">
    <property name="geometry">
     <rect>
      <x>250</x>
@@ -1513,7 +1513,7 @@
     <set>Qt::AlignCenter</set>
    </property>
   </widget>
-  <widget class="QLineEdit" name="lineEdit_60">
+  <widget class="QLineEdit" name="lineEdit_61">
    <property name="geometry">
     <rect>
      <x>130</x>
@@ -1537,7 +1537,7 @@
     <set>Qt::AlignCenter</set>
    </property>
   </widget>
-  <widget class="QLineEdit" name="lineEdit_61">
+  <widget class="QLineEdit" name="lineEdit_69">
    <property name="geometry">
     <rect>
      <x>450</x>
@@ -1561,7 +1561,7 @@
     <set>Qt::AlignCenter</set>
    </property>
   </widget>
-  <widget class="QLineEdit" name="lineEdit_62">
+  <widget class="QLineEdit" name="lineEdit_67">
    <property name="geometry">
     <rect>
      <x>370</x>
@@ -1609,7 +1609,7 @@
     <set>Qt::AlignCenter</set>
    </property>
   </widget>
-  <widget class="QLineEdit" name="lineEdit_64">
+  <widget class="QLineEdit" name="lineEdit_62">
    <property name="geometry">
     <rect>
      <x>170</x>
@@ -1633,227 +1633,11 @@
     <set>Qt::AlignCenter</set>
    </property>
   </widget>
-  <widget class="QLineEdit" name="lineEdit_65">
+  <widget class="QLineEdit" name="lineEdit_78">
    <property name="geometry">
     <rect>
      <x>410</x>
      <y>470</y>
-     <width>41</width>
-     <height>41</height>
-    </rect>
-   </property>
-   <property name="font">
-    <font>
-     <pointsize>15</pointsize>
-    </font>
-   </property>
-   <property name="text">
-    <string/>
-   </property>
-   <property name="maxLength">
-    <number>1</number>
-   </property>
-   <property name="alignment">
-    <set>Qt::AlignCenter</set>
-   </property>
-  </widget>
-  <widget class="QLineEdit" name="lineEdit_66">
-   <property name="geometry">
-    <rect>
-     <x>290</x>
-     <y>470</y>
-     <width>41</width>
-     <height>41</height>
-    </rect>
-   </property>
-   <property name="font">
-    <font>
-     <pointsize>15</pointsize>
-    </font>
-   </property>
-   <property name="text">
-    <string/>
-   </property>
-   <property name="maxLength">
-    <number>1</number>
-   </property>
-   <property name="alignment">
-    <set>Qt::AlignCenter</set>
-   </property>
-  </widget>
-  <widget class="QLineEdit" name="lineEdit_67">
-   <property name="geometry">
-    <rect>
-     <x>330</x>
-     <y>470</y>
-     <width>41</width>
-     <height>41</height>
-    </rect>
-   </property>
-   <property name="font">
-    <font>
-     <pointsize>15</pointsize>
-    </font>
-   </property>
-   <property name="text">
-    <string/>
-   </property>
-   <property name="maxLength">
-    <number>1</number>
-   </property>
-   <property name="alignment">
-    <set>Qt::AlignCenter</set>
-   </property>
-  </widget>
-  <widget class="QLineEdit" name="lineEdit_68">
-   <property name="geometry">
-    <rect>
-     <x>250</x>
-     <y>470</y>
-     <width>41</width>
-     <height>41</height>
-    </rect>
-   </property>
-   <property name="font">
-    <font>
-     <pointsize>15</pointsize>
-    </font>
-   </property>
-   <property name="text">
-    <string/>
-   </property>
-   <property name="maxLength">
-    <number>1</number>
-   </property>
-   <property name="alignment">
-    <set>Qt::AlignCenter</set>
-   </property>
-  </widget>
-  <widget class="QLineEdit" name="lineEdit_69">
-   <property name="geometry">
-    <rect>
-     <x>130</x>
-     <y>470</y>
-     <width>41</width>
-     <height>41</height>
-    </rect>
-   </property>
-   <property name="font">
-    <font>
-     <pointsize>15</pointsize>
-    </font>
-   </property>
-   <property name="text">
-    <string/>
-   </property>
-   <property name="maxLength">
-    <number>1</number>
-   </property>
-   <property name="alignment">
-    <set>Qt::AlignCenter</set>
-   </property>
-  </widget>
-  <widget class="QLineEdit" name="lineEdit_70">
-   <property name="geometry">
-    <rect>
-     <x>450</x>
-     <y>470</y>
-     <width>41</width>
-     <height>41</height>
-    </rect>
-   </property>
-   <property name="font">
-    <font>
-     <pointsize>15</pointsize>
-    </font>
-   </property>
-   <property name="text">
-    <string/>
-   </property>
-   <property name="maxLength">
-    <number>1</number>
-   </property>
-   <property name="alignment">
-    <set>Qt::AlignCenter</set>
-   </property>
-  </widget>
-  <widget class="QLineEdit" name="lineEdit_71">
-   <property name="geometry">
-    <rect>
-     <x>370</x>
-     <y>470</y>
-     <width>41</width>
-     <height>41</height>
-    </rect>
-   </property>
-   <property name="font">
-    <font>
-     <pointsize>15</pointsize>
-    </font>
-   </property>
-   <property name="text">
-    <string/>
-   </property>
-   <property name="maxLength">
-    <number>1</number>
-   </property>
-   <property name="alignment">
-    <set>Qt::AlignCenter</set>
-   </property>
-  </widget>
-  <widget class="QLineEdit" name="lineEdit_72">
-   <property name="geometry">
-    <rect>
-     <x>210</x>
-     <y>470</y>
-     <width>41</width>
-     <height>41</height>
-    </rect>
-   </property>
-   <property name="font">
-    <font>
-     <pointsize>15</pointsize>
-    </font>
-   </property>
-   <property name="text">
-    <string/>
-   </property>
-   <property name="maxLength">
-    <number>1</number>
-   </property>
-   <property name="alignment">
-    <set>Qt::AlignCenter</set>
-   </property>
-  </widget>
-  <widget class="QLineEdit" name="lineEdit_73">
-   <property name="geometry">
-    <rect>
-     <x>170</x>
-     <y>470</y>
-     <width>41</width>
-     <height>41</height>
-    </rect>
-   </property>
-   <property name="font">
-    <font>
-     <pointsize>15</pointsize>
-    </font>
-   </property>
-   <property name="text">
-    <string/>
-   </property>
-   <property name="maxLength">
-    <number>1</number>
-   </property>
-   <property name="alignment">
-    <set>Qt::AlignCenter</set>
-   </property>
-  </widget>
-  <widget class="QLineEdit" name="lineEdit_74">
-   <property name="geometry">
-    <rect>
-     <x>410</x>
-     <y>510</y>
      <width>41</width>
      <height>41</height>
     </rect>
@@ -1877,7 +1661,7 @@
    <property name="geometry">
     <rect>
      <x>290</x>
-     <y>510</y>
+     <y>470</y>
      <width>41</width>
      <height>41</height>
     </rect>
@@ -1901,7 +1685,7 @@
    <property name="geometry">
     <rect>
      <x>330</x>
-     <y>510</y>
+     <y>470</y>
      <width>41</width>
      <height>41</height>
     </rect>
@@ -1921,11 +1705,11 @@
     <set>Qt::AlignCenter</set>
    </property>
   </widget>
-  <widget class="QLineEdit" name="lineEdit_77">
+  <widget class="QLineEdit" name="lineEdit_74">
    <property name="geometry">
     <rect>
      <x>250</x>
-     <y>510</y>
+     <y>470</y>
      <width>41</width>
      <height>41</height>
     </rect>
@@ -1945,11 +1729,11 @@
     <set>Qt::AlignCenter</set>
    </property>
   </widget>
-  <widget class="QLineEdit" name="lineEdit_78">
+  <widget class="QLineEdit" name="lineEdit_71">
    <property name="geometry">
     <rect>
      <x>130</x>
-     <y>510</y>
+     <y>470</y>
      <width>41</width>
      <height>41</height>
     </rect>
@@ -1973,6 +1757,102 @@
    <property name="geometry">
     <rect>
      <x>450</x>
+     <y>470</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>15</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="maxLength">
+    <number>1</number>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_77">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>470</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>15</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="maxLength">
+    <number>1</number>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_73">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>470</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>15</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="maxLength">
+    <number>1</number>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_72">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>470</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>15</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="maxLength">
+    <number>1</number>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_88">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
      <y>510</y>
      <width>41</width>
      <height>41</height>
@@ -1993,7 +1873,127 @@
     <set>Qt::AlignCenter</set>
    </property>
   </widget>
-  <widget class="QLineEdit" name="lineEdit_80">
+  <widget class="QLineEdit" name="lineEdit_85">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>510</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>15</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="maxLength">
+    <number>1</number>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_86">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>510</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>15</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="maxLength">
+    <number>1</number>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_84">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>510</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>15</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="maxLength">
+    <number>1</number>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_81">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>510</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>15</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="maxLength">
+    <number>1</number>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_89">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>510</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>15</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="maxLength">
+    <number>1</number>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_87">
    <property name="geometry">
     <rect>
      <x>370</x>
@@ -2017,7 +2017,7 @@
     <set>Qt::AlignCenter</set>
    </property>
   </widget>
-  <widget class="QLineEdit" name="lineEdit_81">
+  <widget class="QLineEdit" name="lineEdit_83">
    <property name="geometry">
     <rect>
      <x>210</x>
@@ -2470,69 +2470,69 @@
   <tabstop>lineEdit_17</tabstop>
   <tabstop>lineEdit_18</tabstop>
   <tabstop>lineEdit_19</tabstop>
-  <tabstop>lineEdit_211</tabstop>
-  <tabstop>lineEdit_221</tabstop>
-  <tabstop>lineEdit_24</tabstop>
-  <tabstop>lineEdit_23</tabstop>
   <tabstop>lineEdit_21</tabstop>
   <tabstop>lineEdit_22</tabstop>
-  <tabstop>lineEdit_26</tabstop>
-  <tabstop>lineEdit_20</tabstop>
+  <tabstop>lineEdit_23</tabstop>
+  <tabstop>lineEdit_24</tabstop>
   <tabstop>lineEdit_25</tabstop>
-  <tabstop>lineEdit_33</tabstop>
-  <tabstop>lineEdit_37</tabstop>
-  <tabstop>lineEdit_36</tabstop>
-  <tabstop>lineEdit_32</tabstop>
-  <tabstop>lineEdit_30</tabstop>
-  <tabstop>lineEdit_31</tabstop>
-  <tabstop>lineEdit_35</tabstop>
+  <tabstop>lineEdit_26</tabstop>
+  <tabstop>lineEdit_27</tabstop>
+  <tabstop>lineEdit_28</tabstop>
   <tabstop>lineEdit_29</tabstop>
+  <tabstop>lineEdit_31</tabstop>
+  <tabstop>lineEdit_32</tabstop>
+  <tabstop>lineEdit_33</tabstop>
   <tabstop>lineEdit_34</tabstop>
-  <tabstop>lineEdit_42</tabstop>
-  <tabstop>lineEdit_46</tabstop>
-  <tabstop>lineEdit_45</tabstop>
-  <tabstop>lineEdit_41</tabstop>
-  <tabstop>lineEdit_39</tabstop>
-  <tabstop>lineEdit_40</tabstop>
-  <tabstop>lineEdit_44</tabstop>
+  <tabstop>lineEdit_35</tabstop>
+  <tabstop>lineEdit_36</tabstop>
+  <tabstop>lineEdit_37</tabstop>
   <tabstop>lineEdit_38</tabstop>
+  <tabstop>lineEdit_39</tabstop>
+  <tabstop>lineEdit_41</tabstop>
+  <tabstop>lineEdit_42</tabstop>
   <tabstop>lineEdit_43</tabstop>
-  <tabstop>lineEdit_51</tabstop>
-  <tabstop>lineEdit_55</tabstop>
-  <tabstop>lineEdit_54</tabstop>
-  <tabstop>lineEdit_50</tabstop>
+  <tabstop>lineEdit_44</tabstop>
+  <tabstop>lineEdit_45</tabstop>
+  <tabstop>lineEdit_46</tabstop>
+  <tabstop>lineEdit_47</tabstop>
   <tabstop>lineEdit_48</tabstop>
   <tabstop>lineEdit_49</tabstop>
-  <tabstop>lineEdit_53</tabstop>
-  <tabstop>lineEdit_47</tabstop>
+  <tabstop>lineEdit_51</tabstop>
   <tabstop>lineEdit_52</tabstop>
-  <tabstop>lineEdit_60</tabstop>
-  <tabstop>lineEdit_64</tabstop>
-  <tabstop>lineEdit_63</tabstop>
-  <tabstop>lineEdit_59</tabstop>
+  <tabstop>lineEdit_53</tabstop>
+  <tabstop>lineEdit_54</tabstop>
+  <tabstop>lineEdit_55</tabstop>
+  <tabstop>lineEdit_56</tabstop>
   <tabstop>lineEdit_57</tabstop>
   <tabstop>lineEdit_58</tabstop>
-  <tabstop>lineEdit_62</tabstop>
-  <tabstop>lineEdit_56</tabstop>
+  <tabstop>lineEdit_59</tabstop>
   <tabstop>lineEdit_61</tabstop>
-  <tabstop>lineEdit_69</tabstop>
-  <tabstop>lineEdit_73</tabstop>
-  <tabstop>lineEdit_72</tabstop>
-  <tabstop>lineEdit_68</tabstop>
+  <tabstop>lineEdit_62</tabstop>
+  <tabstop>lineEdit_63</tabstop>
+  <tabstop>lineEdit_64</tabstop>
+  <tabstop>lineEdit_65</tabstop>
   <tabstop>lineEdit_66</tabstop>
   <tabstop>lineEdit_67</tabstop>
+  <tabstop>lineEdit_68</tabstop>
+  <tabstop>lineEdit_69</tabstop>
   <tabstop>lineEdit_71</tabstop>
-  <tabstop>lineEdit_65</tabstop>
-  <tabstop>lineEdit_70</tabstop>
-  <tabstop>lineEdit_78</tabstop>
-  <tabstop>lineEdit_82</tabstop>
-  <tabstop>lineEdit_81</tabstop>
-  <tabstop>lineEdit_77</tabstop>
+  <tabstop>lineEdit_72</tabstop>
+  <tabstop>lineEdit_73</tabstop>
+  <tabstop>lineEdit_74</tabstop>
   <tabstop>lineEdit_75</tabstop>
   <tabstop>lineEdit_76</tabstop>
-  <tabstop>lineEdit_80</tabstop>
-  <tabstop>lineEdit_74</tabstop>
+  <tabstop>lineEdit_77</tabstop>
+  <tabstop>lineEdit_78</tabstop>
   <tabstop>lineEdit_79</tabstop>
+  <tabstop>lineEdit_81</tabstop>
+  <tabstop>lineEdit_82</tabstop>
+  <tabstop>lineEdit_83</tabstop>
+  <tabstop>lineEdit_84</tabstop>
+  <tabstop>lineEdit_85</tabstop>
+  <tabstop>lineEdit_86</tabstop>
+  <tabstop>lineEdit_87</tabstop>
+  <tabstop>lineEdit_88</tabstop>
+  <tabstop>lineEdit_89</tabstop>
   <tabstop>savePB</tabstop>
   <tabstop>playPB</tabstop>
   <tabstop>tableView</tabstop>
