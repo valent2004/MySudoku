@@ -27,6 +27,9 @@ private slots:
 
 private:
     Ui::CreateSudokuDialog *ui;
+    void readSudokuFieldFromWindow();
+    void clearSudokuField();
+    bool checkSudokuField();
 };
 
 #endif // CREATESUDOKUDIALOG_H

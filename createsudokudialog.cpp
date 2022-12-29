@@ -28,23 +28,22 @@ void CreateSudokuDialog::on_savePB_clicked()
     else
     {
         DBManager *dbManager = SqliteDBManager::getInstance();
-        Sudoku *newSudoku = new Sudoku(ui->lineEdit->text(), this->sudokuField);
-        if (dbManager->save(newSudoku))
+        this->clearSudokuField();
+        this->readSudokuFieldFromWindow();
+        if (this->checkSudokuField())
         {
-            QMessageBox::information(this,"SAVED","You save sudoku in name " + ui->lineEdit->text());
+            Sudoku *newSudoku = new Sudoku(ui->lineEdit->text(), this->sudokuField);
+            if (dbManager->save(newSudoku))
+            {
+                QMessageBox::information(this,"SAVED","You save sudoku with name " + ui->lineEdit->text());
+            }
         }
     }
 }
 
 
-void CreateSudokuDialog::on_playPB_clicked()
+void CreateSudokuDialog::readSudokuFieldFromWindow()
 {
-    for(int i = 0; i < 9; i++)
-    {
-        sudokuField.squares[i].clear();
-        sudokuField.columns[i].clear();
-        sudokuField.rows[i].clear();
-    }
     sudokuField.squares[0].push_back(ui->lineEdit_01->text());
     sudokuField.squares[0].push_back(ui->lineEdit_02->text());
     sudokuField.squares[0].push_back(ui->lineEdit_03->text());
@@ -288,8 +287,20 @@ void CreateSudokuDialog::on_playPB_clicked()
     sudokuField.rows[8].push_back(ui->lineEdit_87->text());
     sudokuField.rows[8].push_back(ui->lineEdit_88->text());
     sudokuField.rows[8].push_back(ui->lineEdit_89->text());
-    Sudoku *newSudoku = new Sudoku("new",sudokuField);
-    newSudoku->getSudokuFieldAsSequence();
+}
+
+void CreateSudokuDialog::clearSudokuField()
+{
+    for(int i = 0; i < 9; i++)
+    {
+        sudokuField.squares[i].clear();
+        sudokuField.columns[i].clear();
+        sudokuField.rows[i].clear();
+    }
+}
+
+bool CreateSudokuDialog::checkSudokuField()
+{
     int right = 0;
     QString this_one = "";
     QVector<QString> notSame;
@@ -483,145 +494,51 @@ void CreateSudokuDialog::on_playPB_clicked()
                                                                                                             {
                                                                                                                 notSameRow9.clear();
                                                                                                                 massive(sudokuField.rows[8], notSameRow9, this_one, num, uR9, count_num);
-                                                                                                                PlaySudokuDialog playSudokuDialog;
-                                                                                                                playSudokuDialog.setNumbers(this->sudokuField);
-                                                                                                                playSudokuDialog.setModal(true);
-                                                                                                                playSudokuDialog.exec();
-                                                                                                            }
-                                                                                                            else
-                                                                                                            {
-                                                                                                                QMessageBox::information(this,"Wrong","You can't play. I'm sorry!");
-                                                                                                            }
-                                                                                                        }
-                                                                                                        else
-                                                                                                        {
-                                                                                                            QMessageBox::information(this,"Wrong","You can't play. I'm sorry!");
-                                                                                                        }
-                                                                                                    }
-                                                                                                    else
-                                                                                                    {
-                                                                                                        QMessageBox::information(this,"Wrong","You can't play. I'm sorry!");
-                                                                                                    }
-                                                                                                }
-                                                                                                else
-                                                                                                {
-                                                                                                    QMessageBox::information(this,"Wrong","You can't play. I'm sorry!");
-                                                                                                }
-                                                                                            }
-                                                                                            else
-                                                                                            {
-                                                                                                QMessageBox::information(this,"Wrong","You can't play. I'm sorry!");
-                                                                                            }
-                                                                                        }
-                                                                                        else
-                                                                                        {
-                                                                                            QMessageBox::information(this,"Wrong","You can't play. I'm sorry!");
-                                                                                        }
-                                                                                    }
-                                                                                    else
-                                                                                    {
-                                                                                        QMessageBox::information(this,"Wrong","You can't play. I'm sorry!");
-                                                                                    }
-                                                                                }
-                                                                                else
-                                                                                {
-                                                                                    QMessageBox::information(this,"Wrong","You can't play. I'm sorry!");
-                                                                                }
-                                                                            }
-                                                                            else
-                                                                            {
-                                                                                QMessageBox::information(this,"Wrong","You can't play. I'm sorry!");
-                                                                            }
-                                                                        }
-                                                                        else
-                                                                        {
-                                                                            QMessageBox::information(this,"Wrong","You can't play. I'm sorry!");
-                                                                        }
-                                                                    }
-                                                                    else
-                                                                    {
-                                                                        QMessageBox::information(this,"Wrong","You can't play. I'm sorry!");
-                                                                    }
-                                                                }
-                                                                else
-                                                                {
-                                                                    QMessageBox::information(this,"Wrong","You can't play. I'm sorry!");
-                                                                }
-                                                            }
-                                                            else
-                                                            {
-                                                                QMessageBox::information(this,"Wrong","You can't play. I'm sorry!");
-                                                            }
-                                                        }
-                                                        else
-                                                        {
-                                                            QMessageBox::information(this,"Wrong","You can't play. I'm sorry!");
-                                                        }
+                                                                                                                return true;
 
-                                                    }
-                                                    else
-                                                    {
-                                                        QMessageBox::information(this,"Wrong","You can't play. I'm sorry!");
+                                                                                                            }
+                                                                                                        }
+                                                                                                    }
+                                                                                                }
+                                                                                            }
+                                                                                        }
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
                                                     }
                                                 }
-                                                else
-                                                {
-                                                    QMessageBox::information(this,"Wrong","You can't play. I'm sorry!");
-                                                }
-                                            }
-                                            else
-                                            {
-                                                QMessageBox::information(this,"Wrong","You can't play. I'm sorry!");
                                             }
                                         }
-                                        else
-                                        {
-                                            QMessageBox::information(this,"Wrong","You can't play. I'm sorry!");
-                                        }
-                                    }
-                                    else
-                                    {
-                                        QMessageBox::information(this,"Wrong","You can't play. I'm sorry!");
                                     }
                                 }
-                                else
-                                {
-                                    QMessageBox::information(this,"Wrong","You can't play. I'm sorry!");
-                                }
-                            }
-                            else
-                            {
-                                QMessageBox::information(this,"Wrong","You can't play. I'm sorry!");
                             }
                         }
-                        else
-                        {
-                            QMessageBox::information(this,"Wrong","You can't play. I'm sorry!");
-                        }
-                    }
-                    else
-                    {
-                        QMessageBox::information(this,"Wrong","You can't play. I'm sorry!");
                     }
                 }
-                else
-                {
-                    QMessageBox::information(this,"Wrong","You can't play. I'm sorry!");
-                }
             }
-            else
-            {
-                QMessageBox::information(this,"Wrong","You can't play. I'm sorry!");
-            }
-        }
-        else
-        {
-            QMessageBox::information(this,"Wrong","You can't play. I'm sorry!");
         }
     }
-    else
+
+    QMessageBox::information(this,"Wrong","You can't play. I'm sorry!");
+    return false;
+}
+
+void CreateSudokuDialog::on_playPB_clicked()
+{
+    this->clearSudokuField();
+    this->readSudokuFieldFromWindow();
+    if(this->checkSudokuField())
     {
-        QMessageBox::information(this,"Wrong","You can't play. I'm sorry!");
+
+        PlaySudokuDialog playSudokuDialog;
+        playSudokuDialog.setNumbers(this->sudokuField);
+        playSudokuDialog.setModal(true);
+        playSudokuDialog.exec();
     }
 }
 
