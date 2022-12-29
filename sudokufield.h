@@ -5,11 +5,11 @@
 #include <QString>
 
 struct SudokuField {
+    QVector<QString> rows[9];
+
     QVector<QString> squares[9];
 
     QVector<QString> columns[9];
-
-    QVector<QString> rows[9];
 };
 
 #endif // SUDOKUFIELD_H

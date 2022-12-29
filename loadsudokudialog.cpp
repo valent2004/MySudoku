@@ -39,7 +39,7 @@ void LoadSudokuDialog::on_UploadSudokuPB_clicked()
 {
     //TODO отримання id по вибраному судоку із списка tableView
 
-    Sudoku* loadSudoku = dbManager->loadSudokuByID(1);
+    Sudoku* loadSudoku = dbManager->loadSudokuByID(3);
     PlaySudokuDialog playSudokuDialog;
     playSudokuDialog.setNumbers(loadSudoku->getSudokuField());
     playSudokuDialog.setModal(true);

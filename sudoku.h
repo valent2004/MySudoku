@@ -11,6 +11,7 @@ class Sudoku
     SudokuField sudokuField;
 public:
     Sudoku(QString name, SudokuField sudokuField, int id = 0);
+    Sudoku(QString name, QString sequence, int id = 0);
     void setId(int id);
     int getId();
     void setName(QString name);

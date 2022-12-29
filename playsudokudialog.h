@@ -29,7 +29,7 @@ private:
     void showInformation();
     void readSudokuFromWindow();
     void clearSudokuField();
-    void checkSudoku();
+    bool checkSudoku();
 };
 
 #endif // PLAYSUDOKU_H

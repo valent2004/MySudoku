@@ -8,6 +8,30 @@ Sudoku::Sudoku(QString name, SudokuField sudokuField, int id)
     this->sudokuField = sudokuField;
 }
 
+Sudoku::Sudoku(QString name, QString sequence, int id)
+{
+    this->id = id;
+    this->name = name;
+    int j = 0;
+    for (int i = 0; i < 9; ++i)
+    {
+        for(int n = 0; n < 9; ++n)
+        {
+            if(sequence.at(j).isNumber()){
+                this->sudokuField.rows[i].push_back(QString(sequence.at(j)));
+                qDebug() << sequence.at(j);
+            } else {
+                this->sudokuField.rows[i].push_back("");
+            }
+                ++j;
+        }
+    }
+    //TODO записати squares
+
+    //TODO записати columns
+
+}
+
 void Sudoku::setId(int id)
 {
     this->id = id;
