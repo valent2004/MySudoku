@@ -22,7 +22,7 @@ public:
     ~PlaySudokuDialog();
 
 private slots:
-    void on_pushButton_clicked();
+    void on_ReadyPB_clicked();
 
 private:
     Ui::PlaySudokuDialog *ui;

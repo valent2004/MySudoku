@@ -101,7 +101,7 @@ void PlaySudokuDialog::setNumbers(SudokuField newSudoku)
 
 void PlaySudokuDialog::showInformation()
 {
-    QMessageBox::information(this,"Wrong","You can't play. I'm sorry!");
+    QMessageBox::information(this,"Wrong","You lose! =( Try again!");
 }
 
 void PlaySudokuDialog::clearSudokuField()
@@ -589,7 +589,7 @@ bool PlaySudokuDialog::checkSudoku()
     return false;
 }
 
-void PlaySudokuDialog::on_pushButton_clicked()
+void PlaySudokuDialog::on_ReadyPB_clicked()
 {
     clearSudokuField();
     readSudokuFromWindow();

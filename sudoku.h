@@ -11,14 +11,16 @@ class Sudoku
     SudokuField sudokuField;
 public:
     Sudoku(QString name, SudokuField sudokuField, int id = 0);
-    Sudoku(QString name, QString sequence, int id = 0);
+    Sudoku(QString name, QString sequence, QString sequence2, QString sequence3, int id = 0);
     void setId(int id);
     int getId();
     void setName(QString name);
     QString getName();
     void setSudokuField(SudokuField sudokuField);
     SudokuField getSudokuField();
-    QString getSudokuFieldAsSequence();
+    QString getSudokuFieldAsSequenceRows();
+    QString getSudokuFieldAsSequenceColumns();
+    QString getSudokuFieldAsSequenceSquares();
 };
 
 #endif // SUDOKU_H

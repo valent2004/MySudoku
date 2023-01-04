@@ -85,7 +85,7 @@ bool SqliteDBManager::createTables()
      * з наступним його виконанням.
      * */
     QSqlQuery query;
-    if(!query.exec( "CREATE TABLE sudokus (id INTEGER PRIMARY KEY AUTOINCREMENT, name VARCHAR (50) NOT NULL, field_sequence VARCHAR (81) NOT NULL);")){
+    if(!query.exec( "CREATE TABLE sudokus (id INTEGER PRIMARY KEY AUTOINCREMENT, name VARCHAR (50) NOT NULL, field_sequence_rows VARCHAR (81) NOT NULL, field_sequence_columns VARCHAR (81) NOT NULL, field_sequence_squares VARCHAR (81) NOT NULL);")){
         qDebug() << "DataBase: error of create table 'sudokus'";
         qDebug() << query.lastError().text();
         return false;
@@ -98,10 +98,12 @@ bool SqliteDBManager::save(Sudoku* sudoku)  //Збереження судоку 
 {
     //Запит SQL формується із QVariantList, в який передаються данні для вставки в таблицю.
     QSqlQuery query(getDB());
-    query.prepare("INSERT INTO sudokus (name, field_sequence) "
-                  "VALUES (:Name, :Sequence)");
+    query.prepare("INSERT INTO sudokus (name, field_sequence_rows, field_sequence_columns, field_sequence_squares) "
+                  "VALUES (:Name, :Sequence_Rows, :Sequence_Columns, :Sequence_Squares)");
     query.bindValue(":Name",        sudoku->getName());
-    query.bindValue(":Sequence",    sudoku->getSudokuFieldAsSequence());
+    query.bindValue(":Sequence_Rows",    sudoku->getSudokuFieldAsSequenceRows());
+    query.bindValue(":Sequence_Columns",    sudoku->getSudokuFieldAsSequenceColumns());
+    query.bindValue(":Sequence_Squares",    sudoku->getSudokuFieldAsSequenceSquares());
 
     // Після чого виконується запит методом exec()
     if(!query.exec()){
@@ -114,11 +116,11 @@ bool SqliteDBManager::save(Sudoku* sudoku)  //Збереження судоку 
         return true;
 }
 
-Sudoku* SqliteDBManager::loadSudokuByID(int id) //TODO загрузка матриці судоку із БД
+Sudoku* SqliteDBManager::loadSudokuByID(int id)
 {
     //Запит SQL формується із QVariantList, в який передаються данні для вставки в таблицю.
     QSqlQuery query(getDB());
-    query.prepare("SELECT name, field_sequence FROM sudokus WHERE id = :id;");
+    query.prepare("SELECT name, field_sequence_rows, field_sequence_columns, field_sequence_squares FROM sudokus WHERE id = :id;");
     query.bindValue(":id", id);
     // Після чого виконується запит методом exec()
     if(!query.exec()){
@@ -134,8 +136,10 @@ Sudoku* SqliteDBManager::loadSudokuByID(int id) //TODO загрузка матр
         qDebug() << "Number of columns: " << record.count();
         qDebug() << record.value(0).toString();
         qDebug() << record.value(1).toString();
+        qDebug() << record.value(2).toString();
+        qDebug() << record.value(3).toString();
 
-        sudoku = new Sudoku(record.value(0).toString(), record.value(1).toString(), id);
+        sudoku = new Sudoku(record.value(0).toString(), record.value(1).toString(), record.value(2).toString(), record.value(3).toString(), id);
     }
     return sudoku;
 }

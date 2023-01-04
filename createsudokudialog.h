@@ -18,7 +18,6 @@ public:
     explicit CreateSudokuDialog(QWidget *parent = nullptr);
     bool check(QVector<QString> sq1, int inter, QString num[]);
     int massive(QVector<QString> sq1, QVector<QString> notSame, QString this_is, QString num[], int integer, int count_numbers);
-    int numberPlus();
     ~CreateSudokuDialog();
 
 private slots:

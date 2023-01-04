@@ -23,7 +23,7 @@
     </rect>
    </property>
   </widget>
-  <widget class="QPushButton" name="pushButton">
+  <widget class="QPushButton" name="ReadyPB">
    <property name="geometry">
     <rect>
      <x>310</x>
@@ -2387,7 +2387,7 @@
    </property>
   </widget>
   <zorder>tableView</zorder>
-  <zorder>pushButton</zorder>
+  <zorder>ReadyPB</zorder>
   <zorder>label</zorder>
   <zorder>lineEdit_61</zorder>
   <zorder>lineEdit_78</zorder>
@@ -2496,7 +2496,7 @@
   <zorder>line_4</zorder>
  </widget>
  <tabstops>
-  <tabstop>pushButton</tabstop>
+  <tabstop>ReadyPB</tabstop>
   <tabstop>tableView</tabstop>
  </tabstops>
  <resources/>
